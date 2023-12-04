@@ -6,10 +6,10 @@ RUN apt-get update
 RUN apt-get install -y openjdk-11-jdk
 
 # 작업 디렉토리 설정
-WORKDIR /usr/local/tomcat/file
+# WORKDIR /usr/local/tomcat/file
 
 # 소스 코드와 pom.xml 파일 복사
-RUN cp ./build/libs/*.war /usr/local/tomcat/webapps
+COPY build/libs/*.war /usr/local/tomcat/webapps
 #COPY ./build/libs/*.war /usr/local/tomcat/file
 
 #RUN cp /usr/local/tomcat/file/build/libs/*.war /usr/local/tomcat/webapps/
