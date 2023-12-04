@@ -15,4 +15,4 @@ WORKDIR /usr/local/tomcat/file
 # Maven 빌드 실행
 #RUN ./gradlew build
 # 생성된 WAR 파일을 Tomcat의 webapps 폴더로 복사
-RUN cp /usr/local/tomcat/file/build/libs/*.war /usr/local/tomcat/webapps/
+RUN cp /build/libs/*.war /usr/local/tomcat/webapps/
