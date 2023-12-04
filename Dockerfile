@@ -11,7 +11,7 @@ WORKDIR /usr/local/tomcat/file
 # 소스 코드와 pom.xml 파일 복사
 COPY . /usr/local/tomcat/file
 
-RUN chmod -R 755 gradlew
+#RUN chmod -R 755 gradlew
 # Maven 빌드 실행
 #RUN ./gradlew build
 # 생성된 WAR 파일을 Tomcat의 webapps 폴더로 복사
