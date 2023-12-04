@@ -9,7 +9,7 @@ RUN apt-get install -y openjdk-11-jdk
 WORKDIR /usr/local/tomcat/file
 
 # 소스 코드와 pom.xml 파일 복사
-COPY . /usr/local/tomcat/file
+# COPY . /usr/local/tomcat/file
 
 #RUN chmod -R 755 gradlew
 # Maven 빌드 실행
