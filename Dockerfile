@@ -2,8 +2,8 @@
 FROM tomcat:9.0.83
 
 # OpenJDK 설치
-RUN apt-get update
-RUN apt-get install -y openjdk-11-jdk
+#RUN apt-get update
+#RUN apt-get install -y openjdk-11-jdk
 
 # 작업 디렉토리 설정
 # WORKDIR /usr/local/tomcat/file
