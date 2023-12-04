@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-tiger GRRRRR
+tiger GRRRRR_ver2
   </body>
 </html>
